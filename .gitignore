@@ -1,0 +1,82 @@
+# ==========================
+# Maven
+# ==========================
+target/
+**/target/
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# ==========================
+# Java
+# ==========================
+*.class
+*.log
+*.ctxt
+
+# ==========================
+# IDE
+# ==========================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse / STS
+.project
+.classpath
+.settings/
+.springBeans
+.apt_generated/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Logs
+# ==========================
+logs/
+*.log
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.swp
+*.swo
+*~
+
+# ==========================
+# Environment Files
+# ==========================
+.env
+.env.*
+
+# ==========================
+# Generated Files
+# ==========================
+*.pid
+*.seed
+*.out
+*.err
+
+# ==========================
+# Archives
+# ==========================
+*.zip
+*.tar
+*.gz
+*.rar

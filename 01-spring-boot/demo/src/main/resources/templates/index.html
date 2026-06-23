@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Kubernetes Demo</title>
+<link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Spring Boot + Kubernetes</h1>
+
+    <div class="card">
+        <h2>Application Details</h2>
+
+        <p>
+            <strong>Application :</strong>
+            <span th:text="${appName}"></span>
+        </p>
+
+        <p>
+            <strong>Pod Name :</strong>
+            <span class="pod" th:text="${podName}"></span>
+        </p>
+
+        <p>
+            <strong>Current Time :</strong>
+            <span th:text="${time}"></span>
+        </p>
+
+        <p>
+            <strong>Requests Served By This Pod :</strong>
+            <span class="counter" th:text="${requestCount}"></span>
+        </p>
+
+    </div>
+
+    <button onclick="location.reload()">
+        Refresh Page
+    </button>
+
+</div>
+
+</body>
+</html>
